@@ -1,2 +1,2 @@
 # crushcyber6
-Seasonal Website
+Seasonal Website for Cyber 6.
