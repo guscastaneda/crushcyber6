@@ -8,7 +8,10 @@
     <title>Crush Cyber 6</title>
 
     <!-- Font -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
 
     <!-- Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
@@ -20,7 +23,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
- 	<style type="text/css">
+ 	<!-- <style type="text/css">
 
 	.specOutline{
     	border-style: solid;
@@ -32,7 +35,7 @@
     text-align: center;
   }
 
- </style>
+ </style> -->
 
  </head>
 
@@ -40,25 +43,25 @@
 	  <div class="container">
 
 		  <!-- header -->
-			  <div id="home" class="row specOutline">
+			  <div id="home" class="row header specOutline">
           <!-- Logo Div -->
 				  <div class="col-sm-6 specOutline">
 					  <!-- Insert Logo Here -->
-            <img src="assets/crush-logo.png" height="162" width="368" alt="Deadlines">
+            <img src="assets/crush-logo.png" height="100" width="211" alt="Deadlines">
 				  </div>
           <!-- Nav Div -->
 				  <div class="col-sm-6 specOutline">
 					  <ul>
-						  <li><a href="#reminders">Reminders</a></li>
-              <li><a href="#couponkits">Coupon Kits</a></li>
               <li><a href="#resources">Resources</a></li>
+              <li><a href="#couponkits">Coupon Kits</a></li>
+              <li><a href="#reminders">Reminders</a></li>
 					  </ul>
 				  </div>
 			  </div>
 		  <!-- end header -->
 
       <!-- intro div -->
-			  <div class="row specOutline">
+			  <div class="row darkGray specOutline">
           <!-- countdown Div -->
 				  <div class="col-sm-6 specOutline">
             <!-- Count down ticker -->
@@ -81,7 +84,7 @@
 		  <!-- end intro -->
 
 		  <!-- self service text -->
-			 <div class="row specOutline">
+			 <div class="row lightGray specOutline">
 			 	<div>
 			 		<h1>Self Service Headline</h1>
           <h2> Subhead</h2>
@@ -100,7 +103,7 @@
                   <h3> SSCP Text </h3>
                   <p> Partem imperdiet intellegebat usu ei. Ut quo justo falli, atqui deleniti phaedrum ex qui. Ne vix dicam virtute suscipiantur, cu oportere tincidunt eloquentiam mei. Putant dignissim assueverit id ius, cum posse nulla paulo no. Nam animal scaevola platonem ad, cu exerci habemus sea. Vel accusam repudiare ex. </p>
                   <!-- CTA div -->
-                  <div class="specOutline">
+                  <div class="cta specOutline">
                   <p> CTA Goes Here </p>
                 </div>
                 </div>
@@ -109,7 +112,7 @@
 		  <!-- end self service text -->
 
       <!-- reminders text -->
-			 <div id="reminders" class="row specOutline">
+			 <div id="reminders" class="row darkGray specOutline">
 			 	<div>
 			 		<h1>Reminders Headline</h1>
           <h2> Subhead</h2>
@@ -118,29 +121,32 @@
             <div class="col-xs-12">
               <!-- Deadlines -->
                 <div class="col-sm-4 specOutline">
-                    <div class="col-xs-12-offset-1 specOutline">
+                    <div class="col-xs-12-offset-1 specOutline centerAlignImage">
                         <img src="assets/circle-icons/calendar.png" height="150" width="150" alt="Deadlines">
+                    </div>
+                    <div class="col-xs-12-offset-1 specOutline centerAlign">
                         <h3> Deadlines </h3>
                         <p> Partem imperdiet intellegebat usu ei. Ut quo justo falli, atqui deleniti phaedrum ex qui. Ne vix dicam virtute suscipiantur, cu oportere tincidunt eloquentiam mei.</p>
-
                     </div>
                 </div>
                 <!-- Ops on Call -->
                 <div class="col-sm-4 specOutline">
-                    <div class="col-xs-12-offset-1 specOutline">
+                    <div class="col-xs-12-offset-1 specOutline centerAlignImage">
                         <img src="assets/circle-icons/phone.png" height="150" width="150" alt="Ops on Call">
+                    </div>
+                    <div class="col-xs-12-offset-1 specOutline centerAlign">
                         <h3> Ops on Call </h3>
                         <p> Partem imperdiet intellegebat usu ei. Ut quo justo falli, atqui deleniti phaedrum ex qui. Ne vix dicam virtute suscipiantur, cu oportere tincidunt eloquentiam mei.</p>
-
                     </div>
                 </div>
                 <!-- Exceptions -->
                 <div class="col-sm-4 specOutline">
-                    <div class="col-xs-12-offset-1 specOutline">
+                    <div class="col-xs-12-offset-1 specOutline centerAlignImage">
                         <img src="assets/circle-icons/hand.png" height="150" width="150" alt="No Exceptions">
+                    </div>
+                    <div class="col-xs-12-offset-1 specOutline centerAlign">
                         <h3> No Expectations </h3>
                         <p> Partem imperdiet intellegebat usu ei. Ut quo justo falli, atqui deleniti phaedrum ex qui. Ne vix dicam virtute suscipiantur, cu oportere tincidunt eloquentiam mei.</p>
-
                     </div>
                 </div>
           </div>
@@ -148,7 +154,7 @@
 		  <!-- end reminders text -->
 
       <!-- coupon kits text -->
-			 <div id="couponkits" class="row specOutline">
+			 <div id="couponkits" class="row lightGray specOutline">
 			 	<div>
 			 		<h1>Coupon Kits</h1>
           <h2> Subhead</h2>
@@ -160,7 +166,7 @@
                     <div class="col-xs-12-offset-1 specOutline">
                         <img src="assets/images/standard_banner.png" height="259" width="300" alt="Standard Banner">
                         <!-- CTA div -->
-                        <div class="specOutline">
+                        <div class="cta specOutline">
                         <p>Logo Zone CTA Goes Here </p>
                       </div>
                     </div>
@@ -170,7 +176,7 @@
                     <div class="col-xs-12-offset-1 specOutline">
                         <img src="assets/images/large_banner.png" height="259" width="300" alt="Large Banner">
                         <!-- CTA div -->
-                        <div class="specOutline">
+                        <div class="cta specOutline">
                         <p> Large Logo  Zone CTA Goes Here </p>
                       </div>
                     </div>
@@ -200,7 +206,7 @@
                       <img src="assets/images/ff_banner.png" height="259" width="300" alt="Full Frame Banner">
                   </div>
                   <!-- CTA div -->
-                  <div class="specOutline">
+                  <div class="cta specOutline">
                   <p>Full Frame CTA Goes Here </p>
                 </div>
               </div>
@@ -215,7 +221,7 @@
 		  <!-- end coupon kit query -->
 
       <!-- tools/recources text -->
-       <div id="resources" class="row specOutline">
+       <div id="resources" class="row darkGray specOutline">
         <div>
           <h1>Tools/Resources Headline</h1>
           <h2> Subhead</h2>
@@ -224,29 +230,32 @@
             <div class="col-xs-12">
               <!-- ticket gen -->
                 <div class="col-sm-4 specOutline">
-                    <div class="col-xs-12-offset-1 specOutline">
+                    <div class="col-xs-12-offset-1 specOutline centerAlignImage">
                         <img src="assets/circle-icons/ticket.png" height="150" width="150" alt="Ticket Generator">
+                    </div>
+                    <div class="col-xs-12-offset-1 specOutline centerAlign">
                         <h3> Ticket generator </h3>
                         <p> Partem imperdiet intellegebat usu ei. Ut quo justo falli, atqui deleniti phaedrum ex qui. Ne vix dicam virtute suscipiantur, cu oportere tincidunt eloquentiam mei.</p>
-
                     </div>
                 </div>
                 <!-- coupon generator -->
                 <div class="col-sm-4 specOutline">
-                    <div class="col-xs-12-offset-1 specOutline">
+                    <div class="col-xs-12-offset-1 specOutline centerAlignImage">
                         <img src="assets/circle-icons/coupon.png" height="150" width="150" alt="Coupon Generator">
+                    </div>
+                    <div class="col-xs-12-offset-1 specOutline centerAlign">
                         <h3> Coupon Generator </h3>
                         <p> Partem imperdiet intellegebat usu ei. Ut quo justo falli, atqui deleniti phaedrum ex qui. Ne vix dicam virtute suscipiantur, cu oportere tincidunt eloquentiam mei.</p>
-
                     </div>
                 </div>
                 <!-- cs slack -->
                 <div class="col-sm-4 specOutline">
-                    <div class="col-xs-12-offset-1 specOutline">
+                    <div class="col-xs-12-offset-1 specOutline centerAlignImage">
                         <img src="assets/circle-icons/slack.png" height="150" width="150" alt="CS Slack Channel">
+                    </div>
+                    <div class="col-xs-12-offset-1 specOutline centerAlign">
                         <h3> CS slack </h3>
                         <p> Partem imperdiet intellegebat usu ei. Ut quo justo falli, atqui deleniti phaedrum ex qui. Ne vix dicam virtute suscipiantur, cu oportere tincidunt eloquentiam mei.</p>
-
                     </div>
                 </div>
           </div>
@@ -254,12 +263,15 @@
       <!-- end reminders text -->
 
       <!-- back to Top -->
-			  <div class="row specOutline">
+			  <div class="row darkGray specOutline ">
           <!-- Logo Div -->
-          <a href="#home">
-          <img src="assets/extra-icons/arrow_up.png" height="130" width="120" alt="Back to Top">
-				  <p> Back to top</p>
-        </a>
+          <div class="col-xs-12 specOutline centerAlign footer">
+              <<a href="#home">
+              <img src="assets/extra-icons/arrow_up.png" height="130" width="120" alt="Back to Top">
+    				  <p> Back to top</p>
+            </a>
+          </div>
+
 			  </div>
 		  <!-- end back to top -->
 

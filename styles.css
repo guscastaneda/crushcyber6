@@ -1,0 +1,101 @@
+/* For building purposes only */
+.specOutline{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+  }
+
+/* Text Styling */
+h1 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif !important;
+  color: #a4a8ad !important;
+  font-weight: 500;
+  padding: 20px 0px 0px 0px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif !important;
+  color: #a4a8ad !important;
+  font-weight: 300 !important;
+  padding: 0px 0px 30px 0px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding: 5px 10px 5px 10px;
+}
+
+li {
+    float: right;
+    font-family: 'Roboto', sans-serif !important;
+    color: #ffffff !important;
+    font-weight:400 !important;
+    font-size: 20px;
+    padding: 10px 5px 10px 5px;
+}
+
+li a {
+    text-decoration: none !important;
+}
+
+/* CTA Styling */
+.cta {
+    border-radius: 25px;
+    background: #f37a36;
+    padding: 20px;
+    width: 200px;
+    height: 50px;
+}
+
+.cta:hover {
+    background: #cb672e;
+}
+
+/* Container Styles */
+body {
+    background-color: #555555 !important;
+}
+
+.header {
+    background-color: #1e2227 !important;
+}
+
+.footer {
+    padding: 50px 0px 30px 0px;
+}
+
+.lightGray {
+    background-color: #373a3f !important;
+}
+
+.darkGray {
+    background-color: #292f36 !important;
+}
+
+.centerAlign{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+.centerAlignImage{
+    width: 44%;
+    margin: auto;
+}
