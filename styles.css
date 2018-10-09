@@ -5,6 +5,10 @@
     border-color: black;
   }
 
+.spacer{
+    padding: 15px;
+  }
+
 /* Text Styling */
 h1 {
   text-align: center;
@@ -59,13 +63,24 @@ li a {
 .cta {
     border-radius: 25px;
     background: #f37a36;
-    padding: 20px;
+    padding: 10px;
     width: 200px;
-    height: 50px;
+    height: 40px;
 }
 
 .cta:hover {
     background: #cb672e;
+}
+
+.ctaText{
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+}
+
+.ctaPadding{
+  padding: 0px 0px 20px 0px;
 }
 
 /* Container Styles */
@@ -97,5 +112,10 @@ body {
 
 .centerAlignImage{
     width: 44%;
+    margin: auto;
+}
+
+.centerAlignCoupon{
+    width: 88%;
     margin: auto;
 }
