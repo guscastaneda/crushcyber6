@@ -71,6 +71,7 @@ li a:hover {
     padding: 10px;
     width: 200px;
     height: 40px;
+    margin: auto;
 }
 
 .cta:hover {
@@ -96,6 +97,19 @@ body {
 
 .header {
     background-color: #1e2227 !important;
+    margin-top: 30px;
+}
+
+.pb-30{
+  padding-bottom: 30px;
+}
+
+.pb-60{
+  padding-bottom: 60px;
+}
+
+.pt-30{
+  padding-top: 30px;
 }
 
 .footer {
@@ -111,25 +125,24 @@ body {
 }
 
 .centerAlign{
-    width: 75%;
-    margin: auto;
     text-align: center;
 }
 
-.centerAlignImage{
-    width: 44%;
-    margin: auto;
-}
-
-.centerAlignCoupon{
-    width: 88%;
-    margin: auto;
+.resImage{
+  max-width: 100%;
+  height: auto;
 }
 
 .verticalAlign{
-  vertical-align: middle;
+  display: flex;
+  align-items: center;
 }
 
-.navText{
-
+@media (min-width: 1200px) {
+  .footer {
+    position: fixed;
+    bottom: 15px;
+    right: 0;
+    width: 300px;
+    }
 }
