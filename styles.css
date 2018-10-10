@@ -43,20 +43,25 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    padding: 5px 10px 5px 10px;
+    padding: 30px 10px 5px 10px;
 }
 
 li {
     float: right;
     font-family: 'Roboto', sans-serif !important;
-    color: #ffffff !important;
     font-weight:400 !important;
     font-size: 20px;
-    padding: 10px 5px 10px 5px;
+    padding: 0px 20px 0px 20px;
 }
 
 li a {
     text-decoration: none !important;
+    color: #ffffff !important;
+}
+
+li a:hover {
+    text-decoration: underline !important;
+    color: #ffffff !important;
 }
 
 /* CTA Styling */
@@ -77,6 +82,7 @@ li a {
   font-weight: 400;
   color: #ffffff;
   text-align: center;
+  user-select: none;
 }
 
 .ctaPadding{
@@ -118,4 +124,12 @@ body {
 .centerAlignCoupon{
     width: 88%;
     margin: auto;
+}
+
+.verticalAlign{
+  vertical-align: middle;
+}
+
+.navText{
+
 }
