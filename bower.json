@@ -1,0 +1,38 @@
+{
+  "name": "crushcyber6",
+  "authors": [
+    "Gus Castaneda <g.castaneda@criteo.com>"
+  ],
+  "description": "Seasonal website for Cyber 6",
+  "main": [
+    "index.html",
+    "main.js"
+  ],
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "keywords": [
+    "none"
+  ],
+  "license": "MIT",
+  "homepage": "https://google.com",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/foo/bar.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true,
+  "dependencies": {
+    "clipboard": "^2.0.1"
+  }
+}
