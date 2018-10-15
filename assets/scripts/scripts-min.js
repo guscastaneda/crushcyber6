@@ -1,1 +1,1 @@
-new ClipboardJS(".btn");
+function getTimeRemaining(e){var t=Date.parse(e)-new Date,a;return{total:t,days:Math.floor(t/864e5)}}function initializeClock(e,t){var a,n=document.getElementById(e).querySelector(".days");function i(){var e=getTimeRemaining(t);n.innerHTML=e.days,e.total<=0&&clearInterval(r)}i();var r=setInterval(i,1e3)}

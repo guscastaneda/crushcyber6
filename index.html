@@ -8,7 +8,7 @@
     <title>Crush Cyber 6</title>
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:700,900" rel="stylesheet">
     <!-- Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet">
     <!-- CSS -->
@@ -46,60 +46,71 @@
         <!-- end header -->
 
         <!-- intro div -->
-        <div class="row darkGray p-2 verticalAlign">
+        <div class="row darkGray p-2">
             <!-- countdown Div -->
 
-            <div class="col-sm-6">
+            <div class="col-sm-6 countdown align-baseline">
                 <!-- Count down ticker -->
-                <div class="col-xs-4">
-                    <!-- Insert ticker -->
-                    <p>Ticker </p>
+                <div class="col-md-4">
+                    <div id="clockdiv" class="inline-block">
+                        <h3 class="days"></h3>
+                    </div>
                 </div>
                 <!-- ticket tagline -->
-                <div class="col-xs-8">
-                    <img src="assets/images/areYouReady.png" height="100%" width="100%" alt="Are you Ready?">
+                <div class="col-md-8">
+                    <!-- <span class="align-baseline"><img src="assets/images/areYouReady.png" height="100%" width="100%" alt="Are you Ready?"></span> -->
+                    <div class="text-center">
+                        <br>
+                        <span style="color: #fff; font-weight: 200; font-size: 1.65em;">DAYS UNTIL BLACK FRIDAY</span>
+                        <hr style="border-top: 2px solid #e86228; margin-top: 5px; margin-bottom: 5px; width: 200px;">
+                        <span style="color: #fff; font-weight: 500; font-size: 2.52em;">ARE YOU READY?</span>
+                    </div>
+                    
                 </div>
             </div>
             <!-- Intro Text -->
-            <div class="col-sm-6">
-                <h3>Intro Text </h3>
+            <!-- <div class="col-sm-6">
+                <h3> Welcome to the Black Friday Survival Guide</h3>
                 <p>Partem imperdiet intellegebat usu ei. Ut quo justo falli, atqui deleniti phaedrum ex qui. Ne vix
                     dicam virtute suscipiantur, cu oportere tincidunt eloquentiam mei. Putant dignissim assueverit id
-                    ius, cum posse nulla paulo no. Nam animal scaevola platonem ad, cu exerci habemus sea. Vel accusam
-                    repudiare ex. </p>
-            </div>
+                    ius, cum posse nulla paulo no. </p>
+            </div> -->
         </div>
         <!-- end intro -->
 
 
         <!-- self service text -->
-        <div class="p-b-3 row lightGray">
-            <div>
-                <h1 class="text-center">Self Service Headline</h1>
-                <h2 class="text-center">Subhead</h2>
-            </div>
+        <div class="row lightGray">
+            <!-- <div class="m-b-3">
+                <h1 class="text-center">Coupon Upload Tool Overview</h1>
+                <h4 class="text-center">Innovative. Inspiring. You're Welcome.</h4>
+            </div> -->
             <!-- self service content -->
-            <div class="col-sm-6">
-                <div>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/o7FT3lQ7BzQ" frameborder="0" allow="autoplay; encrypted-media"
-                        allowfullscreen></iframe>
+            <div class="col-sm-6" style="margin:0; padding: 0;">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="100%" height="320" src="https://www.youtube.com/embed/o7FT3lQ7BzQ" frameborder="0"
+                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
             </div>
             <!-- self service content -->
             <div class="col-sm-6">
                 <div>
-                    <h3>How to upload and manage coupons</h3>  
-                    <p>You can upload and manage your coupons from Management Center by visiting the 'Creatives' tab. This tool allows you to
-                    quickly see each of your campaign’s live, upcoming, and previous coupons. You can also create and edit live and
-                    upcoming coupons.</p>
-                    <ol>
+                    <h3>Welcome to the Black Friday Survival Guide</h3>
+                    <p>You can upload and manage your coupons from Management Center by visiting the 'Creatives' tab.
+                        This tool allows you to
+                        quickly see each of your campaign’s live, upcoming, and previous coupons. You can also create
+                        and edit live and
+                        upcoming coupons.</p>
+                    <!-- <ol>
                         <li><strong>View your live coupons</strong></li>
                         <li><strong>Manage your existing coupon projects </strong></li>
                         <li><strong>Upload new coupons</strong></li>
                         <li><strong>View your coupon history</strong></li>
-                    </ol>
+                    </ol> -->
                     <!-- CTA div -->
-                    <a class="btn btn-warning btn-lg" href="https://support.criteo.com/hc/en-us/articles/360001501645-How-to-create-and-manage-coupons-" role="button"><small><span class="glyphicon glyphicon-new-window" aria-hidden="true"> </span></small>  Learn More</a>
+                    <a class="btn btn-warning btn-lg" href="https://support.criteo.com/hc/en-us/articles/360001501645-How-to-create-and-manage-coupons-"
+                        role="button"><small><span class="glyphicon glyphicon-new-window" aria-hidden="true"> </span></small>
+                        Learn More</a>
                 </div>
             </div>
         </div>
@@ -108,9 +119,9 @@
 
         <!-- reminders text -->
         <div id="reminders" class="row darkGray p-b-3">
-            <div>
+            <div class="m-b-3">
                 <h1 class="text-center">Reminders Headline</h1>
-                <h2 class="text-center">Subhead</h2>
+                <h4 class="text-center">A few (seemingly) friendly reminders for you to consider.</h4>
             </div>
             <!-- reminders content -->
             <div class="text-center">
@@ -154,9 +165,9 @@
 
         <!-- coupon kits text -->
         <div id="couponkits" class="row lightGray p-b-3">
-            <div>
+            <div class="m-b-3">
                 <h1 class="text-center">Coupon Kits</h1>
-                <h2 class="text-center">Subhead</h2>
+                <h4 class="text-center">Promotions come in all shapes and sizes</h4>
             </div>
             <!-- coupon kit examples -->
             <div class="col-sm-8">
@@ -224,9 +235,9 @@
 
         <!-- tools/recources text -->
         <div id="resources" class="row darkGray p-b-5">
-            <div>
-                <h1 class="text-center">Tools/Resources Headline</h1>
-                <h2 class="text-center">Subhead</h2>
+            <div class="m-b-3">
+                <h1 class="text-center">Tools & Resources</h1>
+                <h4 class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
             </div>
             <!-- T/R content -->
             <div class="text-center">
@@ -270,27 +281,53 @@
             </div>
         </div>
         <div id="email-bits" class="row lightGray p-b-5">
-            <div>
+            <div class="m-b-3">
                 <h1 class="text-center">Email Bits</h1>
-                <h2 class="text-center">Client-ready Copy</h2>
+                <h4 class="text-center">Client-ready copy</h4>
             </div>
             <div class="col-sm-8 col-sm-offset-2">
                 <!-- Target -->
-                <pre class="center-block pre-scrollable email-bit" id="bar">Mussum ipsum cacilds... 
+                <div class="center-block email-bit" id="bar">
+
+Hello [CUSTOMER NAME],
+<br><br>
+To provide you with greater flexibility and control over your Criteo coupons, we
+recently introduced a new functionality under Management Center. You can now
+upload and manage coupons for all your campaigns right from our UI.
+<br><br>
+Our new, easy-to-use coupon management feature provides you with full control
+over your campaign’s coupon upload process and allows you to schedule them
+according to your campaign requirements.
+<br><br>
+Log in to Management Center now and start creating your coupons.
+<br><br>
+Benefits of our Coupon management feature Effortlessly manage your live and
+scheduled coupon projects under a single place Upload and deploy your own
+coupons using custom animation settings, multiple creatives and thousands of
+layouts Schedule and launch your coupon campaigns for a specific time period, or
+set it up as “permanent” if you wish to have it always on Duplicate your
+previous coupons under your history tab and use it as a basis for your new
+coupon campaign.
+<br><br>
+Start managing your Criteo coupons today. For more information on how to upload
+and manage your coupons, visit our support pages.
+<br><br>
+Thank you, [YOUR NAME]
+
                     <button class="btn btn-warning btn-sm" data-clipboard-action="copy" data-clipboard-target="#bar">
                     <span class="glyphicon glyphicon-copy" aria-hidden="true"></span> Copy to Clipboard
                     </button>
-                </pre>
-                
+                </div>
+
                 <!-- Trigger -->
             </div>
 
             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                
+
             </div>
-            
-            
-            
+
+
+
         </div>
 
         <!-- back to Top -->
@@ -313,6 +350,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="bower_components/clipboard/dist/clipboard.min.js"></script>
     <script src="assets/scripts/scripts.js"></script>
+
+    <script>
+        new ClipboardJS('.btn');
+    </script>
+
+    <script>
+        initializeClock('clockdiv', '2018-11-23T17:00:00');
+    </script>
 </body>
 
 </html

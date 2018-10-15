@@ -3,7 +3,21 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #fff;
 }
-
+.days {
+    font-weight: 700;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 8.5em;
+    color:#2d333b;
+    /* background: linear-gradient(to right, #eb8826 0%, #e86228 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #e86228;
+}
 .header {
     background-color: #1e2227;
     margin-top: 30px;
@@ -94,10 +108,12 @@ body {
 
 /* Text Styling */
 
-h1 {
+h1, h4 {
     color: #a4a8ad;
     font-weight: 500;
-    padding: 20px 0px 0px 0px;
+}
+h4 {
+    font-weight: 200;
 }
 
 h2 {
@@ -108,7 +124,7 @@ h2 {
 
 p {
     font-weight: 400;
-    color: #ffffff;
+    color: #A9ADB3;
 }
 
 h3 {
@@ -136,6 +152,12 @@ h3 {
 }
 .email-bit {
     max-width: 800px;
+    background-color: white;
+    border: 1px solid #ccc;
+    font-family: Menlo, monospace;
+    color: #222;
+    padding: 2em 2em 4em 2em;
+    border-radius: 5px;
 }
 .navbar ul > li a {
     text-decoration: none;
@@ -157,9 +179,18 @@ h3 {
     margin-top: 1em;
 }
 .btn-warning {
+    border: 1px solid #eb8826;
     border-radius: 25px;
-    background: #f37a36;
+    background: #eb8826;
+    background: -moz-linear-gradient(45deg, #eb8826 0%, #e86228 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, #eb8826), color-stop(100%, #e86228));
+    background: -webkit-linear-gradient(45deg, #eb8826 0%, #e86228 100%);
+    background: -o-linear-gradient(45deg, #eb8826 0%, #e86228 100%);
+    background: -ms-linear-gradient(45deg, #eb8826 0%, #e86228 100%);
+    background: linear-gradient(45deg, #eb8826 0%, #e86228 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eb8826', endColorstr='#e86228', GradientType=1 );
     font-weight: 500;
+    box-shadow: 15px 15px 52px -15px rgba(34,34,34,.75);
 }
 
 .btn-warning:hover {
