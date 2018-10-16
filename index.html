@@ -25,100 +25,89 @@
 </head>
 
 <body id="main">
-    <div class="container">
 
-        <!-- header -->
-        <div class="row header">
-            <!-- Logo Div -->
-            <div class="col-sm-6">
-                <!-- Insert Logo Here -->
-                <img src="assets/images/crush-logo.png" height="100" width="211" alt="Deadlines">
-            </div>
-            <!-- Nav Div -->
-            <div class="col-sm-6 navbar">
-                <ul>
-                    <li><a href="#resources">Resources</a></li>
-                    <li><a href="#couponkits">Coupon Kits</a></li>
-                    <li><a href="#reminders">Reminders</a></li>
-                </ul>
-            </div>
-        </div>
-        <!-- end header -->
 
-        <!-- intro div -->
-        <div class="row darkGray p-2">
-            <!-- countdown Div -->
+    <!-- header -->
+    <div class="row header p-b-1">
+        <!-- Logo Div -->
+        <div class="container">
+            <div class="col-sm-6 logo">
+                <img src="assets/images/crush-logo.png" style="margin-top: 9px;" height="110" alt="Crush Cyber 6">
+            </div>
 
             <div class="col-sm-6 countdown align-baseline">
                 <!-- Count down ticker -->
-                <div class="col-md-4">
+                <div class="col-xs-4">
                     <div id="clockdiv" class="inline-block">
                         <h3 class="days"></h3>
                     </div>
                 </div>
                 <!-- ticket tagline -->
-                <div class="col-md-8">
-                    <!-- <span class="align-baseline"><img src="assets/images/areYouReady.png" height="100%" width="100%" alt="Are you Ready?"></span> -->
+                <div class="col-xs-8">
                     <div class="text-center">
                         <br>
-                        <span style="color: #fff; font-weight: 200; font-size: 1.65em;">DAYS UNTIL BLACK FRIDAY</span>
+                        <span class="until">DAYS UNTIL BLACK FRIDAY</span>
                         <hr style="border-top: 2px solid #e86228; margin-top: 5px; margin-bottom: 5px; width: 200px;">
-                        <span style="color: #fff; font-weight: 500; font-size: 2.52em;">ARE YOU READY?</span>
+                        <span class="ready">ARE YOU READY?</span>
                     </div>
-                    
+
                 </div>
             </div>
-            <!-- Intro Text -->
-            <!-- <div class="col-sm-6">
-                <h3> Welcome to the Black Friday Survival Guide</h3>
-                <p>Partem imperdiet intellegebat usu ei. Ut quo justo falli, atqui deleniti phaedrum ex qui. Ne vix
-                    dicam virtute suscipiantur, cu oportere tincidunt eloquentiam mei. Putant dignissim assueverit id
-                    ius, cum posse nulla paulo no. </p>
-            </div> -->
         </div>
-        <!-- end intro -->
-
-
-        <!-- self service text -->
-        <div class="row lightGray">
-            <!-- <div class="m-b-3">
-                <h1 class="text-center">Coupon Upload Tool Overview</h1>
-                <h4 class="text-center">Innovative. Inspiring. You're Welcome.</h4>
-            </div> -->
-            <!-- self service content -->
-            <div class="col-sm-6" style="margin:0; padding: 0;">
+    </div>
+    <!-- end header -->
+    <div class="row darkGray" style="height: 60px; padding-top: 20px;">
+        <div class="container">
+            <nav role="navigation">
+                <div>
+                    <ul class="flex-container center">
+                        <li class="flex-item"><a href="#resources">Resources</a></li>
+                        <li class="flex-item"><a href="#couponkits">Coupon Kits</a></li>
+                        <li class="flex-item"><a href="#reminders">Reminders</a></li>
+                        <li class="flex-item"><a href="#email-bits">Useful Copy</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- self service text -->
+    <div class="row lightGray">
+            <div class="col-md-6" style="margin:0; padding: 0;">
                 <div class="embed-responsive embed-responsive-16by9">
-                    <iframe width="100%" height="320" src="https://www.youtube.com/embed/o7FT3lQ7BzQ" frameborder="0"
-                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <iframe width="100%" height="320" src="https://www.youtube.com/embed/o7FT3lQ7BzQ" frameborder="0" allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
                 </div>
             </div>
             <!-- self service content -->
-            <div class="col-sm-6">
+            <div class="col-md-6" style="padding: 3em;">
                 <div>
                     <h3>Welcome to the Black Friday Survival Guide</h3>
-                    <p>You can upload and manage your coupons from Management Center by visiting the 'Creatives' tab.
+                    <p>You can upload and manage your coupons from Management Center by visiting the 'Creatives'
+                        tab.
                         This tool allows you to
-                        quickly see each of your campaign’s live, upcoming, and previous coupons. You can also create
+                        quickly see each of your campaign’s live, upcoming, and previous coupons. You can also
+                        create
                         and edit live and
                         upcoming coupons.</p>
                     <!-- <ol>
-                        <li><strong>View your live coupons</strong></li>
-                        <li><strong>Manage your existing coupon projects </strong></li>
-                        <li><strong>Upload new coupons</strong></li>
-                        <li><strong>View your coupon history</strong></li>
-                    </ol> -->
+                            <li><strong>View your live coupons</strong></li>
+                            <li><strong>Manage your existing coupon projects </strong></li>
+                            <li><strong>Upload new coupons</strong></li>
+                            <li><strong>View your coupon history</strong></li>
+                        </ol> -->
                     <!-- CTA div -->
                     <a class="btn btn-warning btn-lg" href="https://support.criteo.com/hc/en-us/articles/360001501645-How-to-create-and-manage-coupons-"
-                        role="button"><small><span class="glyphicon glyphicon-new-window" aria-hidden="true"> </span></small>
+                        role="button"><small><span class="glyphicon glyphicon-new-window" aria-hidden="true">
+                            </span></small>
                         Learn More</a>
                 </div>
             </div>
-        </div>
-        <!-- end self service text -->
+    
+    </div>
 
-
-        <!-- reminders text -->
-        <div id="reminders" class="row darkGray p-b-3">
+    <!-- reminders text -->
+    <div id="reminders" class="row darkGray p-b-3">
+        <div class="container p-4">
             <div class="m-b-3">
                 <h1 class="text-center">Reminders Headline</h1>
                 <h4 class="text-center">A few (seemingly) friendly reminders for you to consider.</h4>
@@ -132,7 +121,8 @@
                     </div>
                     <div>
                         <h3>Deadlines </h3>
-                        <p>Partem imperdiet intellegebat usu ei. Ut quo justo falli, atqui deleniti phaedrum ex qui.
+                        <p>Partem imperdiet intellegebat usu ei. Ut quo justo falli, atqui deleniti phaedrum ex
+                            qui.
                             Ne vix dicam virtute suscipiantur, cu oportere tincidunt eloquentiam mei.</p>
                     </div>
                 </div>
@@ -143,7 +133,8 @@
                     </div>
                     <div>
                         <h3>Ops on Call </h3>
-                        <p>Partem imperdiet intellegebat usu ei. Ut quo justo falli, atqui deleniti phaedrum ex qui.
+                        <p>Partem imperdiet intellegebat usu ei. Ut quo justo falli, atqui deleniti phaedrum ex
+                            qui.
                             Ne vix dicam virtute suscipiantur, cu oportere tincidunt eloquentiam mei.</p>
                     </div>
                 </div>
@@ -154,17 +145,20 @@
                     </div>
                     <div>
                         <h3>No Expectations </h3>
-                        <p>Partem imperdiet intellegebat usu ei. Ut quo justo falli, atqui deleniti phaedrum ex qui.
+                        <p>Partem imperdiet intellegebat usu ei. Ut quo justo falli, atqui deleniti phaedrum ex
+                            qui.
                             Ne vix dicam virtute suscipiantur, cu oportere tincidunt eloquentiam mei.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- end reminders text -->
+    </div>
+    <!-- end reminders text -->
 
 
-        <!-- coupon kits text -->
-        <div id="couponkits" class="row lightGray p-b-3">
+    <!-- coupon kits text -->
+    <div id="couponkits" class="row lightGray p-b-3">
+        <div class="container p-4">
             <div class="m-b-3">
                 <h1 class="text-center">Coupon Kits</h1>
                 <h4 class="text-center">Promotions come in all shapes and sizes</h4>
@@ -191,20 +185,21 @@
                         <a class="btn btn-warning btn-lg m-b-3" href="#" role="button">Large Logo Zone Kit</a>
                     </div>
                 </div>
-
-
+            
+            
                 <!-- Search bar -->
                 <div>
                     <!-- CTA div -->
                     <div>
                         <h3>Search Bar header</h3>
-                        <p>Partem imperdiet intellegebat usu ei. Ut quo justo falli, atqui deleniti phaedrum ex qui.</p>
+                        <p>Partem imperdiet intellegebat usu ei. Ut quo justo falli, atqui deleniti phaedrum ex
+                            qui.</p>
                     </div>
-
+            
                     <div>
                         <p>Search Bar</p>
                     </div>
-
+            
                     <div>
                         <p>Print area for query</p>
                     </div>
@@ -220,21 +215,24 @@
                     </div>
                     <a class="btn btn-warning btn-lg m-b-3" href="#" role="button">Full Frame Kit</a>
                 </div>
-
+            
                 <!-- supporting text -->
                 <div class="text-center">
                     <div>
-                        <p>Partem imperdiet intellegebat usu ei. Ut quo justo falli, atqui deleniti phaedrum ex qui.
+                        <p>Partem imperdiet intellegebat usu ei. Ut quo justo falli, atqui deleniti phaedrum ex
+                            qui.
                             Ne vix dicam virtute suscipiantur, cu oportere tincidunt eloquentiam mei.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- end coupon kit query -->
+    </div>
+    <!-- end coupon kit query -->
 
 
-        <!-- tools/recources text -->
-        <div id="resources" class="row darkGray p-b-5">
+    <!-- tools/recources text -->
+    <div id="resources" class="row darkGray">
+        <div class="container p-4">
             <div class="m-b-3">
                 <h1 class="text-center">Tools & Resources</h1>
                 <h4 class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
@@ -248,7 +246,8 @@
                     </div>
                     <div>
                         <h3>Ticket generator </h3>
-                        <p>Partem imperdiet intellegebat usu ei. Ut quo justo falli, atqui deleniti phaedrum ex qui.
+                        <p>Partem imperdiet intellegebat usu ei. Ut quo justo falli, atqui deleniti phaedrum ex
+                            qui.
                             Ne vix dicam virtute suscipiantur, cu oportere tincidunt eloquentiam mei.</p>
                         <a class="btn btn-warning btn-lg m-b-3" href="#" role="button">Large Logo Zone Kit</a>
                     </div>
@@ -260,9 +259,10 @@
                     </div>
                     <div>
                         <h3>Coupon Generator </h3>
-                        <p>Partem imperdiet intellegebat usu ei. Ut quo justo falli, atqui deleniti phaedrum ex qui.
+                        <p>Partem imperdiet intellegebat usu ei. Ut quo justo falli, atqui deleniti phaedrum ex
+                            qui.
                             Ne vix dicam virtute suscipiantur, cu oportere tincidunt eloquentiam mei.</p>
-
+            
                         <a class="btn btn-warning btn-lg m-b-3" href="#" role="button">Large Logo Zone Kit</a>
                     </div>
                 </div>
@@ -273,14 +273,17 @@
                     </div>
                     <div>
                         <h3>CS slack </h3>
-                        <p>Partem imperdiet intellegebat usu ei. Ut quo justo falli, atqui deleniti phaedrum ex qui.
+                        <p>Partem imperdiet intellegebat usu ei. Ut quo justo falli, atqui deleniti phaedrum ex
+                            qui.
                             Ne vix dicam virtute suscipiantur, cu oportere tincidunt eloquentiam mei.</p>
                         <a class="btn btn-warning btn-lg m-b-3" href="#" role="button">Large Logo Zone Kit</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="email-bits" class="row lightGray p-b-5">
+    </div>
+    <div id="email-bits" class="row lightGray p-b-5">
+        <div class="container p-4">
             <div class="m-b-3">
                 <h1 class="text-center">Email Bits</h1>
                 <h4 class="text-center">Client-ready copy</h4>
@@ -288,61 +291,56 @@
             <div class="col-sm-8 col-sm-offset-2">
                 <!-- Target -->
                 <div class="center-block email-bit" id="bar">
-
-Hello [CUSTOMER NAME],
-<br><br>
-To provide you with greater flexibility and control over your Criteo coupons, we
-recently introduced a new functionality under Management Center. You can now
-upload and manage coupons for all your campaigns right from our UI.
-<br><br>
-Our new, easy-to-use coupon management feature provides you with full control
-over your campaign’s coupon upload process and allows you to schedule them
-according to your campaign requirements.
-<br><br>
-Log in to Management Center now and start creating your coupons.
-<br><br>
-Benefits of our Coupon management feature Effortlessly manage your live and
-scheduled coupon projects under a single place Upload and deploy your own
-coupons using custom animation settings, multiple creatives and thousands of
-layouts Schedule and launch your coupon campaigns for a specific time period, or
-set it up as “permanent” if you wish to have it always on Duplicate your
-previous coupons under your history tab and use it as a basis for your new
-coupon campaign.
-<br><br>
-Start managing your Criteo coupons today. For more information on how to upload
-and manage your coupons, visit our support pages.
-<br><br>
-Thank you, [YOUR NAME]
-
+            
+                    Hello [CUSTOMER NAME],
+                    <br><br>
+                    To provide you with greater flexibility and control over your Criteo coupons, we
+                    recently introduced a new functionality under Management Center. You can now
+                    upload and manage coupons for all your campaigns right from our UI.
+                    <br><br>
+                    Our new, easy-to-use coupon management feature provides you with full control
+                    over your campaign’s coupon upload process and allows you to schedule them
+                    according to your campaign requirements.
+                    <br><br>
+                    Log in to Management Center now and start creating your coupons.
+                    <br><br>
+                    Benefits of our Coupon management feature Effortlessly manage your live and
+                    scheduled coupon projects under a single place Upload and deploy your own
+                    coupons using custom animation settings, multiple creatives and thousands of
+                    layouts Schedule and launch your coupon campaigns for a specific time period, or
+                    set it up as “permanent” if you wish to have it always on Duplicate your
+                    previous coupons under your history tab and use it as a basis for your new
+                    coupon campaign.
+                    <br><br>
+                    Start managing your Criteo coupons today. For more information on how to upload
+                    and manage your coupons, visit our support pages.
+                    <br><br>
+                    Thank you,
+                    <br><br>
+            
                     <button class="btn btn-warning btn-sm" data-clipboard-action="copy" data-clipboard-target="#bar">
-                    <span class="glyphicon glyphicon-copy" aria-hidden="true"></span> Copy to Clipboard
+                        <span class="glyphicon glyphicon-copy" aria-hidden="true"></span> Copy to Clipboard
                     </button>
                 </div>
-
+            
                 <!-- Trigger -->
             </div>
-
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-
-            </div>
-
-
-
         </div>
 
-        <!-- back to Top -->
-        <div class="row darkGray">
-            <!-- Logo Div -->
-            <div class="text-center footer">
-                <a href="#main">
-                    <img src="assets/icons/arrow_up.png" height="32" width="30" alt="Back to Top">
-                </a>
-            </div>
 
-        </div>
-        <!-- end back to top -->
+    </div>
 
-    </div><!-- end container -->
+    <!-- back to Top -->
+    <div class="row darkGray">
+        <!-- Logo Div -->
+        <a href="#main"><div class="text-center footer">
+            <img src="assets/icons/arrow_up.png" height="28" alt="Back to Top">
+        </div></a>
+
+    </div>
+    <!-- end back to top -->
+
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
