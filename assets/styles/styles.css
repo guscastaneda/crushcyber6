@@ -18,9 +18,11 @@ body {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #e86228; */
 }
-a {
+a, a:hover, a:active, a:focus {
     color: #ec722b;
 }
+.grayscale { filter: grayscale(100%); }
+
 .until {
     color: #fff; font-weight: 200; font-size: 1.65em;
 }
