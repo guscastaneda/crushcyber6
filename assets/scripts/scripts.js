@@ -6,7 +6,6 @@ function getTimeRemaining(endtime) {
     'days': days
   };
 }
-
 function initializeClock(id, endtime) {
   var clock = document.getElementById(id);
   var daysSpan = clock.querySelector('.days');
@@ -20,7 +19,7 @@ function initializeClock(id, endtime) {
       clearInterval(timeinterval);
     }
   }
-
   updateClock();
   var timeinterval = setInterval(updateClock, 1000);
 }
+initializeClock('clockdiv', '2018-11-23T00:00:00');
