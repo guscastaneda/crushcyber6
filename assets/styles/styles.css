@@ -10,13 +10,13 @@ body {
     font-weight: 700;
     font-family: 'Orbitron', sans-serif;
     font-size: 8.5em;
-    color:#2d333b;
+    color:#ec722b;
     margin: 0;
     margin-top: 10px;
     padding: 0;
-    text-align: center;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #e86228;
+    /* text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #e86228; */
 }
 .until {
     color: #fff; font-weight: 200; font-size: 1.65em;
@@ -108,6 +108,9 @@ body {
 .footer {
     background-color: rgba(0, 0, 0,.2);
     border-radius: 100px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
     height: 55px;
     width: 55px;
     cursor: pointer;
@@ -127,12 +130,19 @@ body {
 
 /* Text Styling */
 
-h1, h4 {
-    color: #a4a8ad;
-    font-weight: 500;
+h1 {
+    color: #eb8826;
+    font-weight: 400;
+    letter-spacing:5px;
+    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.1em;
 }
+
 h4 {
+    color: #888;
     font-weight: 200;
+    font-size: 1em;
 }
 
 h2 {
@@ -142,7 +152,6 @@ h2 {
 }
 
 p {
-    font-weight: 400;
     color: #A9ADB3;
 }
 
@@ -189,12 +198,13 @@ h3 {
   padding: 10px 10px;
   margin: 5px;
   text-transform: uppercase;
-  color: white;
   font-weight: 400;
-  font-size: 1.25em;
+  font-size: 1em;
+  letter-spacing: 2px;
   text-align: center;
   text-decoration: none;
-  color: #a4a8ad;
+  color: #c7c7c7;
+  font-family: Orbitron, sans-serif;
 }
 .flex-item a:hover {
   color: #eb8826;
@@ -308,4 +318,9 @@ h3 {
     .days {
         margin-left: 0px;
     }
+}
+@media screen and (max-width: 992px){
+    .ready {
+        font-size: 1.25em;   
+    } 
 }
