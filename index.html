@@ -82,7 +82,8 @@
         <div class="col-md-6" style="padding: 3em;">
             <div>
                 <h1 class="hero">Creative Survival Guide</h1>
-                <p style="max-width: 800px;">Advertisers can now upload and manage their coupons from Management Center by visiting the
+                <p style="max-width: 800px;">Advertisers can now upload and manage their coupons from Management Center
+                    by visiting the
                     'Creatives'
                     tab.
                     While still in beta, the new feature allows them to
@@ -99,7 +100,7 @@
     </div>
 
     <!-- reminders text -->
-    <div id="reminders" class="row darkGray p-b-3">
+    <div id="reminders" class="row darkGray">
         <div class="container p-4">
             <div class="m-b-4">
                 <h1 class="text-center">A Few (seemingly) Friendly Reminders</h1>
@@ -147,53 +148,59 @@
 
 
     <!-- coupon kits text -->
-    <div id="couponkits" class="row lightGray p-b-4">
-        <div class="container">
+    <div id="couponkits" class="row lightGray">
+        <div class="container p-4">
             <div class="m-b-4">
                 <h1 class="text-center">Coupon Kits</h1>
                 <h4 class="text-center">Because promotions come in all shapes and sizes.</h4>
             </div>
-            <!-- coupon kit examples -->
-            <div class="row">
-                <!-- Search bar -->
-                <div>
-                    <!-- CTA div -->
-                    <div class="col-sm-6">
-                        <h3>Not sure what size logozone your client is using?</h3>
-                        <p>Simply enter the Partner ID below to find out.</p>
-                    </div>
-                    <div class="col-sm-6">
-                        <form action="">
 
-                            <input type="text" name="partner-id" id="input" class="form-control" value="" required="required">
-
-                        </form>
-                    </div>
-                </div>
-            </div>
             <div class="col-sm-8">
+
                 <!-- logo zone -->
-                <div class="col-sm-6 p-b-3">
+                <div class="col-sm-6 p-b-2">
                     <div class="text-center">
                         <div class="p-b-2">
                             <img src="assets/images/standard_banner.png" class="img-responsive center-block" height="259"
                                 width="300" alt="Standard Banner">
                         </div>
-                        <a class="btn btn-warning btn-lg m-b-2" href="#" role="button"><small><span class="glyphicon glyphicon-cloud-download"
-                                    aria-hidden="true"></span></small> Logo Zone Kit</a>
+                        <a class="btn btn-warning btn-lg m-b-2" href="#" role="button"><small><span class="glyphicon glyphicon-link"
+                                    aria-hidden="true"></span></small> Standard Kit</a>
                     </div>
                 </div>
                 <!-- large logo zone -->
-                <div class="col-sm-6 p-b-3">
+                <div class="col-sm-6 p-b-2">
                     <div class="text-center">
                         <div class="p-b-2">
                             <img src="assets/images/large_banner.png" class="img-responsive center-block" height="259"
                                 width="300" alt="Standard Banner">
                         </div>
-                        <a class="btn btn-warning btn-lg m-b-2" href="#" role="button"><small><span class="glyphicon glyphicon-cloud-download"
-                                    aria-hidden="true"></span></small> Large Logo Zone Kit</a>
+                        <a class="btn btn-warning btn-lg m-b-2" href="#" role="button"><small><span class="glyphicon glyphicon-link"
+                                    aria-hidden="true"></span></small> Large Kit</a>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 m-b-4">
+                    <div class="row">
+                        <h3>Not sure what size logozone your client is using?</h3>
+                        <p>Simply enter the Partner ID below to find out.</p>
                     </div>
 
+                    <div class="row m-b-2">
+
+                        <div class="input-group" style="width: 250px;">
+                            <input type="text" class="form-control" placeholder="Partner ID" style="border-top-left-radius: 20px 20px; border-bottom-left-radius: 20px 20px;">
+                            <span class="input-group-btn ">
+                                <button class="btn btn-warning" style="margin-top: 0" type="button"><small><span class="glyphicon glyphicon-search"
+                                            aria-hidden="true"></span></small></button>
+                            </span>
+                        </div><!-- /input-group -->
+
+                    </div>
+                    <div class="row">
+                        <p><strong>{{partnerName}} Is using the <a href="#"><small><span class="glyphicon glyphicon-link" aria-hidden="true"></span></small>
+                            {{logoZoneSize}}</a></strong></p> 
+                    </div>
                 </div>
             </div>
             <!-- search bar -->
@@ -204,8 +211,12 @@
                         <img src="assets/images/ff_banner.png" class="img-responsive center-block" height="259" width="300"
                             alt="Standard Banner">
                     </div>
-                    <a class="btn btn-warning btn-lg m-b-2" href="#" role="button"> <small><span class="glyphicon glyphicon-cloud-download"
+                    <a class="btn btn-warning btn-lg m-b-2" href="#" role="button"> <small><span class="glyphicon glyphicon-link"
                                 aria-hidden="true"></span></small> Full Frame Kit</a>
+                    <div class="m-t-4 center-block" style="max-width: 500px;">
+                        <p><em>* Note that while performance remains neutral for logo zone coupons,
+                                full frame coupons typically result lower the banner performance</em></p>
+                    </div>
                 </div>
 
                 <!-- supporting text -->
@@ -214,10 +225,7 @@
 
         </div>
         <div class="text-center">
-            <div>
-                <p><em>* Note that while performance remains neutral for logo zone coupons,
-                full frame coupons typically result lower the banner performance</em></p>
-            </div>
+
         </div>
     </div>
     <!-- end coupon kit query -->
@@ -239,7 +247,7 @@
                     </div>
                     <div>
                         <a class="btn btn-warning btn-lg m-b-3" href="#" role="button"><small><span class="glyphicon glyphicon-link"
-                                aria-hidden="true"></span></small> Ticket Generator</a>
+                                    aria-hidden="true"></span></small> Ticket Generator</a>
                     </div>
                 </div>
                 <!-- coupon generator -->
@@ -249,7 +257,7 @@
                     </div>
                     <div>
                         <a class="btn btn-warning btn-lg m-b-3" href="#" role="button"><small><span class="glyphicon glyphicon-link"
-                                aria-hidden="true"></span></small> Coupon Generator</a>
+                                    aria-hidden="true"></span></small> Coupon Generator</a>
                     </div>
                 </div>
                 <!-- cs slack -->
@@ -259,14 +267,14 @@
                     </div>
                     <div>
                         <a class="btn btn-warning btn-lg m-b-3" href="#" role="button"><small><span class="glyphicon glyphicon-link"
-                                aria-hidden="true"></span></small> CS Slack</a>
+                                    aria-hidden="true"></span></small> CS Slack</a>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </div>
-    <div id="email-bits" class="row lightGray p-b-5">
+    <div id="email-bits" class="row lightGray">
         <div class="container p-4">
             <div class="m-b-4">
                 <h1 class="text-center">Email Copy</h1>
@@ -335,7 +343,16 @@
     <script src="assets/scripts/scripts.js"></script>
 
     <script>
-        new ClipboardJS('.btn');
+        var clipboard = new ClipboardJS('.btn');
+
+            clipboard.on('success', function (e) {
+                console.info('Action:', e.action);
+                console.info('Text:', e.text);
+                e.clearSelection();
+            });
+            clipboard.on('error', function (e) {
+                console.error('Action:', e.action);
+            });
     </script>
 </body>
 

@@ -18,6 +18,9 @@ body {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #e86228; */
 }
+a {
+    color: #ec722b;
+}
 .until {
     color: #fff; font-weight: 200; font-size: 1.65em;
 }
@@ -88,6 +91,12 @@ body {
 
 .m-t-2 {
     margin-top: 2em;
+}
+.m-t-3 {
+    margin-top: 3em;
+}
+.m-t-4 {
+    margin-top: 4em;
 }
 
 .m-1 {
