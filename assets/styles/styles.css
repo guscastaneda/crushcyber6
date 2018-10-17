@@ -28,6 +28,11 @@ a, a:hover, a:active, a:focus {
 .ready {
     color: #fff; font-weight: 500; font-size: 2.52em;   
 }
+
+.hero ul {
+    color: #A9ADB3;
+    padding-inline-start: 15px;
+}
 .header {
     background-color: #1e2227;
     margin-top: -20px;
@@ -176,6 +181,7 @@ p {
 h3 {
     color: #ffffff;
     font-weight: 700;
+    font-size: 1.5em;
 }
 
 .navbar-inverse {
