@@ -39,7 +39,7 @@ a, a:hover, a:active, a:focus {
     height: 150px;
 }
 .modal-content {
-    background-color: rgba(41, 47, 54, .7)
+    background-color: rgba(41, 47, 54, .8)
 }
 .modal-header {
     border-bottom: none;
