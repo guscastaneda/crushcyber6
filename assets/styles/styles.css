@@ -2,7 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 body {
-    background-color: #fff;
     font-family: 'Roboto', sans-serif;
     color: #fff;
 }
@@ -31,7 +30,15 @@ a, a:hover, a:active, a:focus {
 }
 .header {
     background-color: #1e2227;
-    padding-top: 20px;
+    margin-top: -20px;
+    height: 150px;
+}
+.navbar {
+    position: relative;
+    min-height: 60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: none;
 }
 
 .p-b-2 {
@@ -171,57 +178,30 @@ h3 {
     font-weight: 700;
 }
 
-.nav-container ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.navbar-inverse {
+    background-color: #1e2227; 
+    border-color: transparent; 
 }
-
-.navbar ul > li {
-    padding: 0px 20px 0px 20px;
-    color: #fff;
-}
-
-.navbar ul > li a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.navbar ul > li a:hover {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.nav-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-
-.nav-item a{
-    padding: 10px 20px;
+.navbar-inverse .navbar-nav {
+    color: #c7c7c7;
+    font-family: Orbitron, sans-serif;
     text-transform: uppercase;
     font-weight: 400;
     font-size: 1em;
     letter-spacing: 2px;
-    text-align: center;
-    text-decoration: none;
-    color: #c7c7c7;
-    font-family: Orbitron, sans-serif;
-    display: inline-block;
+    background-color: transparent;
+    margin-top: 36px;
 }
-.nav-item a:hover {
-  color: #eb8826;
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: transparent;
 }
 
-.email-bit .btn {
+.email-copy .btn {
     position: absolute;
     bottom: 15px;
     right: 20px;
 }
-.email-bit {
+.email-copy {
     max-width: 800px;
     background-color: white;
     border: 1px solid #ccc;
@@ -290,28 +270,20 @@ h3 {
         width: 60px;
     }
 }
-@media (max-width:565px) {
-    .flex-item a {
-        font-size: 0.8em;
-    }
+@media (max-width:767px) {
     .days {
         margin-bottom: -40px;
     }
-}
-@media (max-width:767px) {
-    .logo img {
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-    }
     .countdown {
         display: none;
+    }
+    .navbar-nav {
+        text-align: center;
     }
 }
 @media (max-width: 1199px) {
     .days {
         font-size: 6.5em;
-        margin-left: -50px;
     }
     .until {
         font-size: 1.1em;
@@ -320,11 +292,7 @@ h3 {
         font-size: 1.75em;   
     }
 }
-@media only screen and (max-width: 1199px) and (min-width: 992px) {
-    .days {
-        margin-left: 0px;
-    }
-}
+
 @media screen and (max-width: 992px){
     .ready {
         font-size: 1.25em;   
