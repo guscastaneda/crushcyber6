@@ -119,10 +119,72 @@
                 <h3>Need help with communication to clients?</h3>
                 <p>Click the button below to view / copy our email template.</p>
 
-                <a class="btn btn-warning btn-lg" href="https://support.criteo.com/hc/en-us/articles/360001501645-How-to-create-and-manage-coupons-"
+                <!-- <a class="btn btn-warning btn-lg" href="https://support.criteo.com/hc/en-us/articles/360001501645-How-to-create-and-manage-coupons-"
                     role="button"><small><span class="glyphicon glyphicon-modal-window" aria-hidden="true">
                         </span></small>
-                    View Email Copy</a>
+                    View Email Copy</a> -->
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal">
+                        <small><span class="glyphicon glyphicon-modal-window" aria-hidden="true">
+                            </span></small>
+                        View Email Copy
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    
+                                </div>
+                                <div class="modal-body">
+
+                                    <h1 class="text-center">Email Copy</h1>
+                                    <h4 class="text-center">Why not?</h4>
+<br>
+                                    <div class="center-block email-copy" id="copy">
+                                    
+                                        Hello [CUSTOMER NAME],
+                                        <br><br>
+                                        To provide you with greater flexibility and control over your Criteo coupons, we
+                                        recently introduced a new functionality under Management Center. You can now
+                                        upload and manage coupons for all your campaigns right from our UI.
+                                        <br><br>
+                                        Our new, easy-to-use coupon management feature provides you with full control
+                                        over your campaign’s coupon upload process and allows you to schedule them
+                                        according to your campaign requirements.
+                                        <br><br>
+                                        Log in to Management Center now and start creating your coupons.
+                                        <br><br>
+                                        Benefits of our Coupon management feature Effortlessly manage your live and
+                                        scheduled coupon projects under a single place Upload and deploy your own
+                                        coupons using custom animation settings, multiple creatives and thousands of
+                                        layouts Schedule and launch your coupon campaigns for a specific time period, or
+                                        set it up as “permanent” if you wish to have it always on Duplicate your
+                                        previous coupons under your history tab and use it as a basis for your new
+                                        coupon campaign.
+                                        <br><br>
+                                        Start managing your Criteo coupons today. For more information on how to upload
+                                        and manage your coupons, visit our support pages.
+                                        <br><br>
+                                        Thank you,
+                                        <br><br>
+                                    
+                                    
+                                    </div>
+                               
+                                </div>
+
+                                <button class="btn btn-warning btn-lg center-block m-b-2" data-clipboard-action="copy" data-clipboard-target="#copy">
+                                    <span class="glyphicon glyphicon-copy" aria-hidden="true"></span> Copy to Clipboard
+                                </button>
+                                
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
 
@@ -138,9 +200,9 @@
             <!-- reminders content -->
             <div class="text-center">
                 <!-- Deadlines -->
-                <div class="col-sm-4 p-b-3" style="padding-left: 50px; padding-right: 50px;">
+                <div class="col-sm-4 p-b-2" style="padding-left: 50px; padding-right: 50px;">
                     <div>
-                        <img src="assets/icons/calendar.png" height="150" width="150" alt="Deadlines">
+                        <img class="img-responsive center-block" src="assets/icons/calendar.png" height="150" width="150" alt="Deadlines">
                     </div>
                     <div>
                         <h3>Deadlines</h3>
@@ -150,9 +212,9 @@
                 </div>
 
                 <!-- Ops on Call -->
-                <div class="col-sm-4" style="padding-left: 50px; padding-right: 50px;">
+                <div class="col-sm-4 p-b-2" style="padding-left: 50px; padding-right: 50px;">
                     <div>
-                        <img src="assets/icons/phone.png" height="150" width="150" alt="Ops on Call">
+                        <img class="img-responsive center-block" src="assets/icons/phone.png" height="150" width="150" alt="Ops on Call">
                     </div>
                     <div>
                         <h3>Ops on Call</h3>
@@ -161,9 +223,9 @@
                 </div>
 
                 <!-- Exceptions -->
-                <div class="col-sm-4 p-b-3" style="padding-left: 50px; padding-right: 50px;">
+                <div class="col-sm-4 " style="padding-left: 50px; padding-right: 50px;">
                     <div>
-                        <img src="assets/icons/hand.png" height="150" width="150" alt="No Exceptions">
+                        <img class="img-responsive center-block" src="assets/icons/hand.png" height="150" width="150" alt="No Exceptions">
                     </div>
                     <div>
                         <h3>No Exceptions</h3>
@@ -308,50 +370,8 @@
             </div>
         </div>
     </div>
-    <div id="email-bits" class="row lightGray">
-        <div class="container p-4">
-            <div class="m-b-4">
-                <h1 class="text-center">Email Copy</h1>
-                <h4 class="text-center">Click to awesomeness.</h4>
-            </div>
-            <div class="col-sm-8 col-sm-offset-2">
-                <!-- Target -->
-                <div class="center-block email-copy" id="bar">
-
-                    Hello [CUSTOMER NAME],
-                    <br><br>
-                    To provide you with greater flexibility and control over your Criteo coupons, we
-                    recently introduced a new functionality under Management Center. You can now
-                    upload and manage coupons for all your campaigns right from our UI.
-                    <br><br>
-                    Our new, easy-to-use coupon management feature provides you with full control
-                    over your campaign’s coupon upload process and allows you to schedule them
-                    according to your campaign requirements.
-                    <br><br>
-                    Log in to Management Center now and start creating your coupons.
-                    <br><br>
-                    Benefits of our Coupon management feature Effortlessly manage your live and
-                    scheduled coupon projects under a single place Upload and deploy your own
-                    coupons using custom animation settings, multiple creatives and thousands of
-                    layouts Schedule and launch your coupon campaigns for a specific time period, or
-                    set it up as “permanent” if you wish to have it always on Duplicate your
-                    previous coupons under your history tab and use it as a basis for your new
-                    coupon campaign.
-                    <br><br>
-                    Start managing your Criteo coupons today. For more information on how to upload
-                    and manage your coupons, visit our support pages.
-                    <br><br>
-                    Thank you,
-                    <br><br>
-
-                    <button class="btn btn-warning btn-sm" data-clipboard-action="copy" data-clipboard-target="#bar">
-                        <span class="glyphicon glyphicon-copy" aria-hidden="true"></span> Copy to Clipboard
-                    </button>
-                </div>
-
-                <!-- Trigger -->
-            </div>
-        </div>
+    <div id="email-copy" class="row lightGray">
+        
 
 
     </div>

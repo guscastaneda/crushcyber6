@@ -38,6 +38,16 @@ a, a:hover, a:active, a:focus {
     margin-top: -20px;
     height: 150px;
 }
+.modal-content {
+    background-color: rgba(41, 47, 54, .7)
+}
+.modal-header {
+    border-bottom: none;
+}
+.modal-body {
+    padding: 0 25px;
+}
+
 .navbar {
     position: relative;
     min-height: 60px;
@@ -209,7 +219,7 @@ h3 {
 }
 .email-copy {
     max-width: 800px;
-    background-color: white;
+    background-color: rgba(254, 254, 254,.95);
     border: 1px solid #ccc;
     font-family: Menlo, monospace;
     color: #222;
