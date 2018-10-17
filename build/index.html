@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,14 +27,40 @@
 
 
     <!-- header -->
-    <div class="row header p-b-1">
+    <div class="header">
         <!-- Logo Div -->
-        <div class="container">
-            <div class="col-sm-6 logo">
-                <img src="assets/images/crush-logo.png" style="margin-top: 9px;" height="110" alt="Crush Cyber 6">
-            </div>
 
-            <div class="col-sm-6 countdown align-baseline">
+        <div class="container">
+            <nav class="navbar navbar-inverse">
+
+                    <div class="navbar-header">
+                        <a href="#" class="navbar-brand">
+                            <img src="assets/images/crush-logo.png" style="margin-top: -5px;" height="100" alt="Crush Cyber 6">
+                        </a>
+                        <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#navbar"
+                            aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                        
+                    <div id="na"class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#reminders">Reminders</a></li>
+                            <li><a href="#couponkits">Coupon Kits</a></li>
+                            <li><a href="#resources">Resources</a></li>
+                        </ul>
+                    </div>
+                    
+            </nav>
+        </div>
+    </div>
+    <!-- end header -->
+    <div class="row darkGray">
+        <div class="container p-2">
+            <div class="col-sm-6 countdown">
                 <!-- Count down ticker -->
                 <div class="col-xs-4">
                     <div id="clockdiv" class="inline-block">
@@ -53,23 +78,16 @@
 
                 </div>
             </div>
+            
+            <div class="col-sm-6" style="padding-left: 3em; padding-right: 2em;">
+                <h4>Welcome to the Black Friday Survival Guide by CS</h4>
+                <p>This guide contains helpful tips on how to survive Cyber Six madness.
+                    You will find reminders and links to tools and files that will arm you with
+                    what you need to make Cyber Six as smooth as possible.</p>
+            </div>
         </div>
     </div>
-    <!-- end header -->
-    <div class="row darkGray" style="height: 80px; padding-top: 30px;">
-        <div class="container">
-            <nav role="navigation">
-                <div>
-                    <ul class="flex-container center">
-                        <li class="flex-item"><a href="#reminders">Reminders</a></li>
-                        <li class="flex-item"><a href="#couponkits">Coupon Kits</a></li>
-                        <li class="flex-item"><a href="#resources">Resources</a></li>
-                        <li class="flex-item"><a href="#email-bits">Useful Copy</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </div>
+
     <!-- self service text -->
     <div class="row lightGray">
         <div class="col-md-6" style="margin:0; padding: 0;">
@@ -77,23 +95,34 @@
                 <iframe width="100%" height="320" src="https://www.youtube.com/embed/o7FT3lQ7BzQ" frameborder="0" allow="autoplay; encrypted-media"
                     allowfullscreen></iframe>
             </div>
+
         </div>
         <!-- self service content -->
         <div class="col-md-6" style="padding: 3em;">
-            <div>
-                <h1 class="hero">Creative Survival Guide</h1>
-                <p style="max-width: 800px;">Advertisers can now upload and manage their coupons from Management Center
-                    by visiting the
-                    'Creatives'
-                    tab.
-                    While still in beta, the new feature allows them to
-                    quickly see each of their campaign’s live, upcoming, and previous coupons. They can also
-                    create and edit live and upcoming coupons.</p>
-                <!-- CTA div -->
+            <div class="hero">
+                <h1 class="hero">Why this is awesome</h1>
+                <p style="max-width: 800px;">Advertisers now have the ability to manage coupons directly
+                    in Management Center, improving the current process
+                    and saving time for all involved. Here are some advertiser benefits:
+                </p>
+                
+                <br>
+
+                <ul>
+                    <li>Ability to upload and deploy their own coupons</li>
+                    <li>Flexibility to manage live and scheduled coupons</li>
+                    <li>Not required to submit request weeks ahead of launch</li>
+                </ul>
+
+                <br>
+
+                <h3>Need help with communication to clients?</h3>
+                <p>Click the button below to view / copy our email template.</p>
+
                 <a class="btn btn-warning btn-lg" href="https://support.criteo.com/hc/en-us/articles/360001501645-How-to-create-and-manage-coupons-"
-                    role="button"><small><span class="glyphicon glyphicon-new-window" aria-hidden="true">
+                    role="button"><small><span class="glyphicon glyphicon-modal-window" aria-hidden="true">
                         </span></small>
-                    Learn More</a>
+                    View Email Copy</a>
             </div>
         </div>
 
@@ -109,30 +138,19 @@
             <!-- reminders content -->
             <div class="text-center">
                 <!-- Deadlines -->
-                <div class="col-sm-4 p-b-3" style="padding-left: 30px; padding-right: 30px;">
+                <div class="col-sm-4 p-b-3" style="padding-left: 50px; padding-right: 50px;">
                     <div>
                         <img src="assets/icons/calendar.png" height="150" width="150" alt="Deadlines">
                     </div>
                     <div>
                         <h3>Deadlines</h3>
-                        <p>Submit JIRA requests with completed creative 2 WEEKS BEFORE BLACK FRIDAY – NOV. 9TH</p>
-                    </div>
-                </div>
-
-                <!-- Exceptions -->
-                <div class="col-sm-4 p-b-3" style="padding-left: 30px; padding-right: 30px;">
-                    <div>
-                        <img src="assets/icons/hand.png" height="150" width="150" alt="No Exceptions">
-                    </div>
-                    <div>
-                        <h3>No Exceptions</h3>
-                        <p>If there is any feedback requiring the ticket to be resubmitted, it will be moved down the
-                            priority list.</p>
+                        <p>Submit JIRA requests with completed creative 2 WEEKS BEFORE BLACK FRIDAY – <span style="color: #e86228">NOV.
+                                9TH</span></p>
                     </div>
                 </div>
 
                 <!-- Ops on Call -->
-                <div class="col-sm-4" style="padding-left: 30px; padding-right: 30px;">
+                <div class="col-sm-4" style="padding-left: 50px; padding-right: 50px;">
                     <div>
                         <img src="assets/icons/phone.png" height="150" width="150" alt="Ops on Call">
                     </div>
@@ -141,6 +159,21 @@
                         <p>Available every night of the week until Cyber Monday 11/19 through 11/26</p>
                     </div>
                 </div>
+
+                <!-- Exceptions -->
+                <div class="col-sm-4 p-b-3" style="padding-left: 50px; padding-right: 50px;">
+                    <div>
+                        <img src="assets/icons/hand.png" height="150" width="150" alt="No Exceptions">
+                    </div>
+                    <div>
+                        <h3>No Exceptions</h3>
+                        <p>If there is any feedback requiring the ticket to be resubmitted, it will be moved down
+                            the
+                            priority list.</p>
+                    </div>
+                </div>
+
+                
             </div>
         </div>
     </div>
@@ -161,8 +194,8 @@
                 <div class="col-sm-6 p-b-2">
                     <div class="text-center">
                         <div class="p-b-2">
-                            <img src="assets/images/standard_banner2.png" class="grayscale img-responsive center-block" height="259"
-                                width="300" alt="Standard Banner">
+                            <img src="assets/images/standard_banner2.png" class="grayscale img-responsive center-block"
+                                height="259" width="300" alt="Standard Banner">
                         </div>
                         <a class="btn btn-warning btn-lg m-b-2" href="#" role="button"><small><span class="glyphicon glyphicon-link"
                                     aria-hidden="true"></span></small> Standard Kit</a>
@@ -172,8 +205,8 @@
                 <div class="col-sm-6 p-b-2">
                     <div class="text-center">
                         <div class="p-b-2">
-                            <img src="assets/images/large_banner2.png" class="grayscale img-responsive center-block" height="259"
-                                width="300" alt="Standard Banner">
+                            <img src="assets/images/large_banner2.png" class="grayscale img-responsive center-block"
+                                height="259" width="300" alt="Standard Banner">
                         </div>
                         <a class="btn btn-warning btn-lg m-b-2" href="#" role="button"><small><span class="glyphicon glyphicon-link"
                                     aria-hidden="true"></span></small> Large Kit</a>
@@ -198,8 +231,9 @@
 
                     </div>
                     <div class="row">
-                        <p><strong>{{partnerName}} Is using the <a href="#"><small><span class="glyphicon glyphicon-link" aria-hidden="true"></span></small>
-                            {{logoZoneSize}}</a></strong></p> 
+                        <p><strong>{{partnerName}} Is using the <a href="#"><small><span class="glyphicon glyphicon-link"
+                                            aria-hidden="true"></span></small>
+                                    {{logoZoneSize}}</a></strong></p>
                     </div>
                 </div>
             </div>
@@ -208,8 +242,8 @@
                 <!-- full frame kit -->
                 <div class="text-center p-b-3">
                     <div class="p-b-2">
-                        <img src="assets/images/ff_banner2.png" class="grayscale img-responsive center-block" height="259" width="300"
-                            alt="Standard Banner">
+                        <img src="assets/images/ff_banner2.png" class="grayscale img-responsive center-block" height="259"
+                            width="300" alt="Standard Banner">
                     </div>
                     <a class="btn btn-warning btn-lg m-b-2" href="#" role="button"> <small><span class="glyphicon glyphicon-link"
                                 aria-hidden="true"></span></small> Full Frame Kit</a>
@@ -282,7 +316,7 @@
             </div>
             <div class="col-sm-8 col-sm-offset-2">
                 <!-- Target -->
-                <div class="center-block email-bit" id="bar">
+                <div class="center-block email-copy" id="bar">
 
                     Hello [CUSTOMER NAME],
                     <br><br>
@@ -345,14 +379,17 @@
     <script>
         var clipboard = new ClipboardJS('.btn');
 
-            clipboard.on('success', function (e) {
-                console.info('Action:', e.action);
-                console.info('Text:', e.text);
-                e.clearSelection();
-            });
-            clipboard.on('error', function (e) {
-                console.error('Action:', e.action);
-            });
+        clipboard.on('success', function (e) {
+            console.info('Action:', e.action);
+            console.info('Text:', e.text);
+            e.clearSelection();
+        });
+        clipboard.on('error', function (e) {
+            console.error('Action:', e.action);
+        });
+    </script>
+    <script>
+        $('.collapse').collapse()
     </script>
 </body>
 
