@@ -39,7 +39,7 @@ a, a:hover, a:active, a:focus {
     padding: 2em;
 }
 .header {
-    background-color: rgba(30, 34, 39, .9);
+    background-color: #1e2227;
     height: 110px;
     top: 0;
     position: sticky;
@@ -212,9 +212,10 @@ h3 {
 }
 
 .navbar-inverse {
-    background-color: transparent; 
+    background-color: #1e2227; 
     border-color: transparent; 
 }
+
 .navbar-inverse .navbar-nav {
     color: #c7c7c7;
     font-family: Orbitron, sans-serif;
@@ -315,6 +316,9 @@ h3 {
     .navbar-nav {
         text-align: center;
     }
+    .navbar-inverse .navbar-nav {
+        margin-top: 50px;
+}
 }
 @media (max-width: 1199px) {
     .days {
