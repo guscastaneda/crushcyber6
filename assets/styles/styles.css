@@ -1,9 +1,11 @@
 html {
   scroll-behavior: smooth;
+
 }
 body {
     font-family: 'Roboto', sans-serif;
     color: #fff;
+    background-color: #000;
 }
 .days {
     font-weight: 700;
@@ -33,11 +35,26 @@ a, a:hover, a:active, a:focus {
     color: #A9ADB3;
     padding-inline-start: 15px;
 }
-.header {
-    background-color: #1e2227;
-    margin-top: -20px;
-    height: 150px;
+.hero {
+    padding: 2em;
 }
+.header {
+    background-color: rgba(30, 34, 39, .9);
+    height: 110px;
+    top: 0;
+    position: sticky;
+    z-index: 50;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: transparent;
+    box-shadow: none;
+}
+
 .modal-content {
     background-color: rgba(41, 47, 54, .8)
 }
@@ -195,7 +212,7 @@ h3 {
 }
 
 .navbar-inverse {
-    background-color: #1e2227; 
+    background-color: transparent; 
     border-color: transparent; 
 }
 .navbar-inverse .navbar-nav {
@@ -206,7 +223,7 @@ h3 {
     font-size: 1em;
     letter-spacing: 2px;
     background-color: transparent;
-    margin-top: 36px;
+    margin-top: 9px;
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
     background-color: transparent;
