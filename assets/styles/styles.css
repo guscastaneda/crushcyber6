@@ -252,9 +252,13 @@ h3 {
 .btn {
     margin-top: 1em;
 }
+
+.input-group-lg>.input-group-btn>.btn {
+    border-radius: 0 25px 25px 0;
+}
 .btn-warning {
     border: 1px solid #eb8826;
-    border-radius: 25px;
+    border-radius: 50px;
     background: #eb8826;
     background: -moz-linear-gradient(45deg, #eb8826 0%, #e86228 100%);
     background: -webkit-gradient(left bottom, right top, color-stop(0%, #eb8826), color-stop(100%, #e86228));
@@ -268,9 +272,7 @@ h3 {
 }
 
 .btn-warning:hover {
-    border-radius: 25px;
     background: #ec722b;
-    font-weight: 500;
 }
 
 .ctaText {
